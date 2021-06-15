@@ -52,6 +52,110 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTaskPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTaskPage.Designer.cs">
+      <DependentUpon>AddTaskPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignProgrammerPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignProgrammerPage.Designer.cs">
+      <DependentUpon>AssignProgrammerPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddIssuePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddIssuePage.Designer.cs">
+      <DependentUpon>AddIssuePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddProgressPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProgressPage.Designer.cs">
+      <DependentUpon>AddProgressPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateTaskPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateTaskPage.Designer.cs">
+      <DependentUpon>UpdateTaskPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssueUpdatePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueUpdatePage.Designer.cs">
+      <DependentUpon>IssueUpdatePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportDetailPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportDetailPage.Designer.cs">
+      <DependentUpon>ReportDetailPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSelectPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportSelectPage.Designer.cs">
+      <DependentUpon>ReportSelectPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgrammerTaskDetailPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgrammerTaskDetailPage.Designer.cs">
+      <DependentUpon>ProgrammerTaskDetailPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgressPage.Designer.cs">
+      <DependentUpon>ProgressPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssueDetailsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueDetailsPage.Designer.cs">
+      <DependentUpon>IssueDetailsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IssuesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssuesPage.Designer.cs">
+      <DependentUpon>IssuesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskDetailPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskDetailPage.Designer.cs">
+      <DependentUpon>TaskDetailPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskPage.Designer.cs">
+      <DependentUpon>TaskPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDetailPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectDetailPage.Designer.cs">
+      <DependentUpon>ProjectDetailPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelper.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="ManagerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerHome.Designer.cs">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgrammerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgrammerHome.Designer.cs">
+      <DependentUpon>ProgrammerHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProjectPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +171,54 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddIssuePage.resx">
+      <DependentUpon>AddIssuePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProgressPage.resx">
+      <DependentUpon>AddProgressPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTaskPage.resx">
+      <DependentUpon>AddTaskPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignProgrammerPage.resx">
+      <DependentUpon>AssignProgrammerPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueDetailsPage.resx">
+      <DependentUpon>IssueDetailsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssuesPage.resx">
+      <DependentUpon>IssuesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueUpdatePage.resx">
+      <DependentUpon>IssueUpdatePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgrammerTaskDetailPage.resx">
+      <DependentUpon>ProgrammerTaskDetailPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressPage.resx">
+      <DependentUpon>ProgressPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportSelectPage.resx">
+      <DependentUpon>ReportSelectPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportDetailPage.resx">
+      <DependentUpon>ReportDetailPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskDetailPage.resx">
+      <DependentUpon>TaskDetailPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskPage.resx">
+      <DependentUpon>TaskPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerHome.resx">
+      <DependentUpon>ManagerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgrammerHome.resx">
+      <DependentUpon>ProgrammerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectDetailPage.resx">
+      <DependentUpon>ProjectDetailPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProjectPage.resx">
       <DependentUpon>ProjectPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -82,6 +234,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UpdateTaskPage.resx">
+      <DependentUpon>UpdateTaskPage.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
